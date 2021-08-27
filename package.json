@@ -6,6 +6,7 @@
     "reporters",
     "pta"
   ],
+  "type": "module",
   "scripts": {
     "format": "prettier --write **/{src,test}",
     "clean": "rm -rf {.,reporters,zora,assert,pta}/{node_modules,dist,package-lock.json}",
